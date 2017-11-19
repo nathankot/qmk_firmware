@@ -15,18 +15,10 @@ You should have received a copy of the GNU General Public License
 along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef CONFIG_H
-#define CONFIG_H
+#ifndef CONFIG_USER_H
+#define CONFIG_USER_H
 
-#include "config_common.h"
-
-/* USB Device descriptor parameter */
-#define VENDOR_ID    0xFEED
-#define PRODUCT_ID   0x6060
-#define DEVICE_VER   0x0001
-#define MANUFACTURER    geekhack
-#define PRODUCT         GH60
-#define DESCRIPTION     t.m.k. keyboard firmware for GH60
+#include "../../config.h"
 
 /* key matrix size */
 #define MATRIX_ROWS 5
@@ -42,10 +34,7 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
  *         ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
  *
 */
- #define MATRIX_ROW_PINS { D0, D1, D2, D3, D5 }
-// Rev A
-// #define MATRIX_COL_PINS { F0, F1, E6, C7, C6, B6, D4, B1, B0, B5, B4, D7, D6, B3 }
-// Rev B/C
+#define MATRIX_ROW_PINS { D0, D1, D2, D3, D5 }
 #define MATRIX_COL_PINS { F0, F1, E6, C7, C6, B6, D4, B1, B7, B5, B4, D7, D6, B3 }
 #define UNUSED_PINS
 
@@ -154,8 +143,40 @@ along with this program. If not, see <http://www.gnu.org/licenses/>.
 /* disable action features */
 //#define NO_ACTION_LAYER
 //#define NO_ACTION_TAPPING
-//#define NO_ACTION_ONESHOT
-//#define NO_ACTION_MACRO
+#define NO_ACTION_ONESHOT
+#define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION
 
+/*
+ * RGB Underglow
+ * These settings are for the F4 by default:
+ *
+ *
+ * #define ws2812_PORTREG  PORTF
+ * #define ws2812_DDRREG   DDRF
+ * #define ws2812_pin PF4
+ * #define RGBLED_NUM 14     // Number of LEDs
+ * #define RGBLIGHT_HUE_STEP 10
+ * #define RGBLIGHT_SAT_STEP 17
+ * #define RGBLIGHT_VAL_STEP 17
+ *
+ * The firmware supports 5 different light effects, and the color (hue, saturation, brightness) can be customized in most effects.
+ * To control the underglow, you need to modify your keymap file to assign those functions to some keys/key combinations.
+ * For details, please check this keymap. keyboard/planck/keymaps/yang/keymap.c
+*/
+
+/* Deprecated code below
+#define ws2812_PORTREG  PORTF
+#define ws2812_DDRREG   DDRF
+#define ws2812_pin PF4
+*/
+#define RGB_DI_PIN F4
+#define RGBLIGHT_ANIMATIONS
+#define RGBLED_NUM 11         // Number of LEDs
+#define RGBLIGHT_HUE_STEP 8
+#define RGBLIGHT_SAT_STEP 8
+#define RGBLIGHT_VAL_STEP 8
+
+#define TAPPING_TERM 200
+#define PERMISSIVE_HOLD
 #endif
