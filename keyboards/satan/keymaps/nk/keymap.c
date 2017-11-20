@@ -1,4 +1,4 @@
-#include "gh60.h"
+#include "satan.h"
 #include "action_layer.h"
 
 #define BASE_LAYER     0
@@ -9,11 +9,11 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [BASE_LAYER] = KEYMAP_HHKB(
-    KC_GRAVE,  KC_1,              KC_2,                  KC_3,                KC_4,       KC_5,    KC_6,    KC_7,    KC_8,     KC_9,     KC_0,      KC_MINUS,    KC_EQUAL,    KC_BSLASH, KC_GRAVE, \
-    F(0),      KC_Q,              KC_W,                  KC_E,                KC_R,       KC_T,    KC_Y,    KC_U,    KC_I,     KC_O,     KC_P,      KC_LBRACKET, KC_RBRACKET, KC_BSPACE,           \
-    F(1),      KC_A,              KC_S,                  KC_D,                F(4),       KC_G,    KC_H,    KC_J,    KC_K,     KC_L,     KC_SCOLON, KC_QUOTE,    KC_ENTER,                         \
-    KC_LSPO,   KC_Z,              KC_X,                  KC_C,                KC_V,       KC_B,    KC_N,    KC_M,    KC_COMMA, KC_DOT,   KC_SLASH,  KC_RSPC,     KC_RSPC,                          \
-    KC_NO,     KC_LALT,           KC_LGUI,               KC_SPACE,            KC_SPACE,   F(3),    F(2),    KC_NO                                                                                  \
+    KC_GRAVE, KC_1,    KC_2,    KC_3,     KC_4,     KC_5, KC_6, KC_7, KC_8,     KC_9,   KC_0,      KC_MINUS,    KC_EQUAL,    KC_BSLASH, KC_GRAVE, \
+    F(0),     KC_Q,    KC_W,    KC_E,     KC_R,     KC_T, KC_Y, KC_U, KC_I,     KC_O,   KC_P,      KC_LBRACKET, KC_RBRACKET, KC_BSPACE, \
+    F(1),     KC_A,    KC_S,    KC_D,     F(4),     KC_G, KC_H, KC_J, KC_K,     KC_L,   KC_SCOLON, KC_QUOTE,    KC_ENTER,    \
+    KC_LSPO,  KC_Z,    KC_X,    KC_C,     KC_V,     KC_B, KC_N, KC_M, KC_COMMA, KC_DOT, KC_SLASH,  KC_RSPC,     KC_RSPC,     \
+    KC_NO,    KC_LALT, KC_LGUI, KC_SPACE, KC_SPACE, F(3), F(2), KC_NO                                                                                  \
   ),
 
   [HYPER_LAYER] = KEYMAP_HHKB(
