@@ -17,35 +17,35 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [HYPER_LAYER] = KEYMAP_HHKB(
-    KC_NO,     KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,     KC_NO,       KC_NO,       KC_NO,     KC_NO,    \
-    KC_TRNS,   KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_7,    KC_8,    KC_9,     KC_NO,    KC_NO,     KC_NO,       KC_BSPACE,   KC_NO,               \
-    KC_LCTRL,  KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_4,    KC_5,    KC_6,     KC_NO,    KC_NO,     KC_NO,       KC_NO,                            \
-    KC_LSHIFT, KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_1,    KC_2,    KC_3,     KC_NO,    KC_NO,     KC_NO,       KC_RSHIFT,                        \
-    KC_NO,     KC_LALT,           KC_LGUI,               KC_0,                KC_0,       KC_NO,   KC_NO,   KC_NO                                                                                  \
+    KC_TRNS,   KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_TRNS,     KC_TRNS,   KC_TRNS,  \
+    KC_TRNS,   KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_7,    KC_8,    KC_9,     KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_BSPACE,   KC_TRNS,             \
+    KC_LCTRL,  KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_4,    KC_5,    KC_6,     KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_TRNS,                          \
+    KC_LSHIFT, KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_1,    KC_2,    KC_3,     KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_RSHIFT,                        \
+    KC_TRNS,   KC_LALT,           KC_LGUI,               KC_0,                KC_0,       KC_TRNS, KC_TRNS, KC_TRNS                                                                                \
   ),
 
   [GIGA_LAYER] = KEYMAP_HHKB(
-    KC_NO,     KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,     KC_NO,       KC_NO,       KC_NO,     KC_NO,    \
-    KC_NO,     LSFT(KC_1),        LSFT(KC_2),            LSFT(KC_3),          LSFT(KC_4), KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,     KC_NO,       KC_NO,       KC_NO,               \
-    KC_LCTRL,  KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,     KC_NO,       KC_NO,                            \
-    KC_LSHIFT, KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,     KC_QUOTE,    KC_RSHIFT,                        \
-    KC_NO,     KC_LALT,           KC_LGUI,               KC_NO,               KC_NO,      KC_TRNS, KC_NO,   KC_NO                                                                                  \
+    KC_TRNS,   KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_TRNS,     KC_TRNS,   KC_TRNS,  \
+    KC_TRNS,   LSFT(KC_1),        LSFT(KC_2),            LSFT(KC_3),          LSFT(KC_4), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_TRNS,     KC_TRNS,             \
+    KC_LCTRL,  KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_TRNS,                          \
+    KC_LSHIFT, KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_QUOTE,    KC_RSHIFT,                        \
+    KC_TRNS,   KC_LALT,           KC_LGUI,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS                                                                                \
   ),
 
   [FUNCTION_LAYER] = KEYMAP_HHKB(
-    KC_NO,     KC_F1,             KC_F2,                 KC_F3,               KC_F4,      KC_F5,   KC_F6,   KC_F7,   KC_F8,    KC_F9,    KC_NO,     KC_NO,       KC_NO,       KC_NO,     RESET,    \
-    KC_NO,     KC_MEDIA_REWIND,   KC_MEDIA_FAST_FORWARD, KC_MEDIA_PLAY_PAUSE, KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_F14,   KC_F15,    KC_NO,       KC_NO,       KC_NO,               \
-    KC_LCTRL,  KC_AUDIO_VOL_DOWN, KC_AUDIO_VOL_UP,       KC__MUTE,            KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,     KC_NO,       KC_NO,                            \
-    KC_LSHIFT, KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,     KC_NO,       KC_RSHIFT,                        \
-    KC_NO,     KC_LALT,           KC_LGUI,               KC_NO,               KC_NO,      KC_NO,   KC_TRNS, KC_NO                                                                                  \
+    KC_TRNS,   KC_F1,             KC_F2,                 KC_F3,               KC_F4,      KC_F5,   KC_F6,   KC_F7,   KC_F8,    KC_F9,    KC_TRNS,   KC_TRNS,     KC_TRNS,     KC_TRNS,   RESET,    \
+    KC_TRNS,   KC_MEDIA_REWIND,   KC_MEDIA_FAST_FORWARD, KC_MEDIA_PLAY_PAUSE, KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_F14,   KC_F15,    KC_TRNS,     KC_TRNS,     KC_TRNS,             \
+    KC_LCTRL,  KC_AUDIO_VOL_DOWN, KC_AUDIO_VOL_UP,       KC__MUTE,            KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_TRNS,                          \
+    KC_LSHIFT, KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_RSHIFT,                        \
+    KC_TRNS,   KC_LALT,           KC_LGUI,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS                                                                                \
   ),
 
   [F_ARROWS_LAYER] = KEYMAP_HHKB(
-    KC_NO,     KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,     KC_NO,       KC_NO,       KC_NO,     KC_NO,    \
-    KC_NO,     KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,     KC_NO,       KC_NO,       KC_NO,               \
-    KC_LCTRL,  KC_NO,             KC_NO,                 KC_TRNS,             KC_NO,      KC_NO,   KC_LEFT, KC_DOWN, KC_UP,    KC_RIGHT, KC_NO,     KC_NO,       KC_NO,                            \
-    KC_LSHIFT, KC_NO,             KC_NO,                 KC_NO,               KC_NO,      KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,    KC_NO,     KC_NO,       KC_RSHIFT,                        \
-    KC_NO,     KC_LALT,           KC_LGUI,               KC_NO,               KC_NO,      KC_NO,   KC_NO,   KC_NO                                                                                  \
+    KC_TRNS,   KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_TRNS,     KC_TRNS,   KC_TRNS,  \
+    KC_TRNS,   KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_TRNS,     KC_TRNS,             \
+    KC_LCTRL,  KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_LEFT, KC_DOWN, KC_UP,    KC_RIGHT, KC_TRNS,   KC_TRNS,     KC_TRNS,                          \
+    KC_LSHIFT, KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,     KC_RSHIFT,                        \
+    KC_TRNS,   KC_LALT,           KC_LGUI,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS                                                                                \
   ),
 
 };
