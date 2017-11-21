@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRNS,   KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,           KC_TRNS,           KC_TRNS,   KC_TRNS,  \
     KC_TRNS,   LSFT(KC_1),        LSFT(KC_2),            LSFT(KC_3),          LSFT(KC_4), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   RGUI(KC_LBRACKET), RGUI(KC_RBRACKET), KC_TRNS,             \
     KC_LCTRL,  KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_TRNS,           KC_TRNS,                                \
-    KC_LSHIFT, KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_TRNS,   KC_QUOTE,          KC_RSHIFT,                              \
+    KC_LSHIFT, KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,  KC_QUOTE,  LSFT(KC_QUOTE),    KC_RSHIFT,                              \
     KC_TRNS,   KC_LALT,           KC_LGUI,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS                                                                                            \
   ),
 
