@@ -74,5 +74,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define TAPPING_TERM 120
 #define QMK_KEYS_PER_SCAN 4
+#define PERMISSIVE_HOLD
 
 #endif
