@@ -90,9 +90,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define NO_ACTION_ONESHOT
 #define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION
+#define PREVENT_STUCK_MODIFIERS
 
-#define TAPPING_TERM 100
-/* #define PERMISSIVE_HOLD */
+#define TAPPING_TERM 80
+#define PERMISSIVE_HOLD
 /* #define IGNORE_MOD_TAP_INTERRUPT */
 #define TAPPING_FORCE_HOLD
 
