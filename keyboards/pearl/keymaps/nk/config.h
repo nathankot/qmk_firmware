@@ -1,5 +1,5 @@
 /*
-Copyright 2017 Luiz Ribeiro <luizribeiro@gmail.com>
+  Copyright 2017 Luiz Ribeiro <luizribeiro@gmail.com>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -18,15 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #ifndef CONFIG_USER_H
 #define CONFIG_USER_H
 
-#include "config_common.h"
-
 #include QMK_KEYBOARD_CONFIG_H
-
-#undef PRODUCT_ID
-#define PRODUCT_ID      0x0001
-
-#undef DEVICE_VER
-#define DEVICE_VER      0x0001
 
 #define NO_ACTION_ONESHOT
 #define NO_ACTION_MACRO
