@@ -51,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     LT(SC2_CG_LAYER,KC_GRAVE), KC_Q,              KC_W,                  KC_E,                KC_R,                    KC_T,     KC_Y,           KC_U,    KC_I,     KC_O,     KC_P,      KC_BSLASH,          KC_BSPACE,   \
     LM(SC2_CG_LAYER,MOD_LCTL), KC_A,              KC_S,                  KC_D,                KC_F,                    KC_G,     KC_H,           KC_J,    KC_K,     KC_L,     KC_SCOLON, KC_ENTER,           \
     LM(SC2_CG_LAYER,MOD_LSFT), KC_Z,              KC_X,                  KC_C,                KC_V,                    KC_B,     KC_N,           KC_M,    KC_COMMA, KC_DOT,   KC_SLASH,  KC_RSFT,            \
-    LM(SC2_CG_LAYER,MOD_LALT), KC_LGUI,           KC_SPACE,              KC_SPACE,            KC_SPACE,                KC_SPACE, KC_RGUI,        MO(SC2_FN_LAYER) \
+    LM(SC2_CG_LAYER,MOD_LALT), KC_TAB,            KC_SPACE,              KC_SPACE,            KC_SPACE,                KC_SPACE, KC_RGUI,        MO(SC2_FN_LAYER) \
   ),
 
   [SC2_CG_LAYER] = LAYOUT_all(
