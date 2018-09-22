@@ -24,7 +24,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_TRNS,  KC_TRNS,           KC_0,                  KC_TRNS,             KC_TRNS                                                                                                                           \
   ),
 
-    [GIGA_LAYER] = LAYOUT_60_hhkb(
+  [GIGA_LAYER] = LAYOUT_60_hhkb(
     KC_TRNS,  KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,        KC_TRNS,           KC_TRNS,           KC_TRNS, KC_TRNS, \
     KC_TRNS,  LSFT(KC_1),        LSFT(KC_2),            LSFT(KC_3),          LSFT(KC_4), KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,        RGUI(KC_LBRACKET), RGUI(KC_RBRACKET), KC_TRNS, \
     KC_TRNS,  KC_TRNS,           KC_TRNS,               KC_TRNS,             KC_TRNS,    KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,  KC_TRNS,        KC_TRNS,           KC_TRNS,           \
