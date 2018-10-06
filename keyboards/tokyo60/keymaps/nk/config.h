@@ -13,18 +13,11 @@
 #define PRODUCT         NK Tokyo60
 #define DESCRIPTION     No description
 
-#define TAPPING_TERM    200
-
-/* Set 0 if debouncing isn't needed */
-#define DEBOUNCE    5
-
 #define NO_ACTION_ONESHOT
 #define NO_ACTION_MACRO
 #define PREVENT_STUCK_MODIFIERS
-
-#define TAPPING_TERM 80
+#define TAPPING_TERM 100
 #define PERMISSIVE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
-#define TAPPING_FORCE_HOLD
 
 #endif
